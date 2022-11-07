@@ -1,0 +1,33 @@
+header {
+    background-color: rgb(50, 41, 41);
+    display: grid;
+    justify-content: center;
+
+    .logos__head {
+        display: flex;
+        justify-content: center;
+    
+        .logo__head {
+            padding: 10px; 
+        }
+    }
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    li {
+        list-style-type: none;
+        padding: 10px;
+        margin: 10px;
+
+        a {
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+            font-size: x-large;
+        }
+    }
+}
